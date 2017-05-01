@@ -1,0 +1,30 @@
+{
+  "name": "login-passport-vujs",
+  "version": "1.0.0",
+  "description": "Contoh login register menggunakan auth passport dan framework vue js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uciarahito/login-passport-vujs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uciarahito/login-passport-vujs/issues"
+  },
+  "homepage": "https://github.com/uciarahito/login-passport-vujs#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.7",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "password-hash": "^1.2.2"
+  }
+}
